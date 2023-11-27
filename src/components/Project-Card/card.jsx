@@ -17,6 +17,7 @@ const Card = ({cardId , teamLeader = "Team Lead" , teamMembers = ["M1" , "M2" , 
 
     const [users, setUsers] = useState([])
     const [loading, setLoading] = useState(false)
+    const [buttonPopup, setButtonPopup] = useState(false);
     useEffect(() => {
         setLoading(true)
         fetch("https://jsonplaceholder.typicode.com/users")
@@ -26,7 +27,6 @@ const Card = ({cardId , teamLeader = "Team Lead" , teamMembers = ["M1" , "M2" , 
                 setLoading(false)
             })
     }, [])
-    const [buttonPopup, setButtonPopup] = useState(false);
 
     return (
         <>

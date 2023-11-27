@@ -25,7 +25,7 @@ const Topbar = () => {
       <div className="topbarRight">
         <div className="topbarLinks">
           <span className={topbarContainer ? 'topbarLink blk':'topbarLink'} id="topbarLogin" onClick={() => {navigate("/")}}>Home</span>
-          <span className={topbarContainer ? 'topbarLink blk':'topbarLink'} id="topbarLogin" >Projects</span>
+          <span className={topbarContainer ? 'topbarLink blk':'topbarLink'} id="topbarLogin" onClick={() => {navigate("/projects")}}>Projects</span>
           <span className={topbarContainer ? 'topbarLink blk':'topbarLink'} id="topbarLogin" >About Us</span>
           <span className={topbarContainer ? 'topbarLink blk':'topbarLink'} id="topbarLogin" >Contact Us</span>
         </div>

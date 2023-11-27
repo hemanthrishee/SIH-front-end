@@ -1,0 +1,61 @@
+.projectsmain{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.searchbar{
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: fit-content;
+  height: 175px;
+  width: 100%;
+  background-color: #A084E8;
+  z-index: -1;
+  top: 0;
+  left: 0;
+}
+
+.searchbar input{
+  width: 40%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 50px;
+}
+
+table {
+    margin: 175px auto;
+    border-radius: 1rem;
+    border: 0.1px hidden #A084E8;
+    border-collapse: collapse;
+    box-shadow: 0 0 0 1px black;
+    overflow: hidden;
+  }
+  
+  li, p, a, td{
+    font-size: 1rem;
+    line-height: 1;
+  }
+  
+  thead {
+    text-align: center;
+    font-size: 1rem;
+    background-color: #A084E8;
+    color: #fff;
+  }
+  
+  th,
+  td {
+    text-align: center;
+    border-bottom: 1px solid #A084E8;
+    min-width: 20rem;
+    padding: 1rem;
+    line-height: 1;
+  }
+  
+  td {
+    font-size: 1rem;
+  }

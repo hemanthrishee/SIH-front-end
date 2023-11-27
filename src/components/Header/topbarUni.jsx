@@ -27,7 +27,7 @@ export default function Topbar() {
       <div className="topbarRight">
         <div className="topbarLinks">
           <span className={topbarContainer ? 'topbarLink blk':'topbarLink'} onClick={() => {navigate("/")}}>Home</span>
-          <span className={topbarContainer ? 'topbarLink blk':'topbarLink'} >Projects</span>
+          <span className={topbarContainer ? 'topbarLink blk':'topbarLink'} onClick={() => {navigate("/projects")}}>Projects</span>
           <span className={topbarContainer ? 'topbarLink blk':'topbarLink'} onClick={() => {navigate("/register")}}>Register Student</span>
           <span className={topbarContainer ? 'topbarLink blk':'topbarLink'}>Contact Us</span>
         </div>
